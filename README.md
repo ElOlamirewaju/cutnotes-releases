@@ -230,20 +230,22 @@ Make sure notes are written in the editor for the **selected timeline** before e
 - ✅ Project / Timeline organization
 - ✅ Instant search
 
-**v2.0 — Collaboration**
-- Cloud sync (iCloud or custom backend)
-- Shared notes, multi-user projects
-- Comments, replies, version history
-
-**v3.0 — Multi-NLE**
-- Final Cut Pro integration
-- Adobe Premiere Pro integration
-- Tagging, custom templates, advanced filtering
-
-**v4.0 — Platform Expansion**
+**v2.0 — Enhanced Productivity** *(Q3 2026)*
+- Categories with color coding (VFX, Audio, Color, Edit, Review, Note)
+- List View mode for batch operations
+- Batch marker creation, deletion, categorization, export
 - Windows support (Qt cross-platform)
-- Web app (read-only client viewer)
-- iOS / Android companion
+
+**v3.0 — Cloud & Collaboration** *(Q2 2027)*
+- Cloud sync across devices
+- Team projects with shared notes and permissions
+- Comments, @mentions, version history
+- AI-powered note summarization and auto-categorization
+
+**v4.0+ — Future**
+- Premiere Pro / Final Cut Pro / Avid Media Composer integration
+- iOS / Android companion app for set notes
+- Advanced analytics, Frame.io and Slack integrations
 
 ---
 
