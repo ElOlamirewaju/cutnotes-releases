@@ -110,23 +110,17 @@ Grab **`CutNotes-1.0.dmg`** from the [latest release](https://github.com/ElOlami
 
 Open the `.dmg` and drag **CutNotes.app** into your **Applications** folder.
 
-### 3. First Launch (one-time setup)
+### 3. Launch
 
-Because this is a beta and not yet code-signed by Apple, macOS will block it on first launch. Open **Terminal** and run:
+Double-click CutNotes — done.
+
+This build is **Apple-signed and notarized** (Developer ID: Olanrewaju Akinola, Q94Y8B437Y). No terminal commands, no Gatekeeper warnings, no quarantine workaround.
+
+### Verify the download (optional)
 
 ```bash
-xattr -cr /Applications/CutNotes.app
-codesign --force --deep --sign - /Applications/CutNotes.app
-open /Applications/CutNotes.app
+shasum -a 256 -c CutNotes-1.0.dmg.sha256
 ```
-
-You only need to do this **once**. Future launches work normally — double-click and go.
-
-> **What these commands do:**
-> - `xattr -cr` removes the macOS quarantine flag added to all downloaded apps
-> - `codesign --force --deep --sign -` applies an ad-hoc signature so macOS accepts the binary
->
-> Once Apple notarization is in place (Apple Developer approval pending), the public release will install with a normal double-click — no terminal required.
 
 ---
 
@@ -176,20 +170,14 @@ brew install python@3.14
 ## Troubleshooting
 
 <details>
-<summary><strong>"CutNotes is damaged and can't be opened"</strong></summary>
+<summary><strong>App won't open / crashes on first launch</strong></summary>
 
-This is the macOS quarantine flag on unsigned beta apps. Run the install commands from [step 3](#3-first-launch-one-time-setup) — they fix this.
-</details>
+The current build is Apple-signed and notarized, so Gatekeeper should accept it without prompts. If you do hit an issue:
 
-<details>
-<summary><strong>App crashes immediately on launch</strong></summary>
-
-Usually a code-signature rejection. Run:
-
-```bash
-codesign --force --deep --sign - /Applications/CutNotes.app
-open /Applications/CutNotes.app
-```
+1. Re-download from the [release page](https://github.com/ElOlamirewaju/cutnotes-releases/releases/tag/v1.0) — partial downloads can corrupt the stapled ticket
+2. Verify the SHA-256 matches: `shasum -a 256 -c CutNotes-1.0.dmg.sha256`
+3. Check Console.app (filter: `CutNotes`) for the actual crash reason
+4. [Open an issue](https://github.com/ElOlamirewaju/cutnotes-releases/issues) with the Console output and your macOS version
 </details>
 
 <details>
