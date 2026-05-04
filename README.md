@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://olanrewaju-portfolio-three.vercel.app/cutnotes/icon-512.png" alt="CutNotes" width="128" height="128">
+  <img src="https://cutnotes.app/icon-512.png" alt="CutNotes" width="128" height="128">
 </p>
 
 <h1 align="center">CutNotes</h1>
@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://github.com/ElOlamirewaju/cutnotes-releases/releases/tag/v1.0"><img src="https://img.shields.io/badge/Download-v1.0_Beta-E8451A?style=for-the-badge&logo=apple&logoColor=white" alt="Download"></a>
-  <a href="https://olanrewaju-portfolio-three.vercel.app/cutnotes/index.html"><img src="https://img.shields.io/badge/Website-cutnotes-07090C?style=for-the-badge&logo=safari&logoColor=white" alt="Website"></a>
+  <a href="https://cutnotes.app/"><img src="https://img.shields.io/badge/Website-cutnotes-07090C?style=for-the-badge&logo=safari&logoColor=white" alt="Website"></a>
 </p>
 
 <p align="center">
@@ -25,7 +25,7 @@
 <br>
 
 <p align="center">
-  <img src="https://olanrewaju-portfolio-three.vercel.app/cutnotes/screenshots/01_main_window_hero_shot.png" alt="CutNotes main window" width="900">
+  <img src="https://cutnotes.app/screenshots/01_main_window_hero_shot.png" alt="CutNotes main window" width="900">
 </p>
 
 ---
@@ -78,21 +78,21 @@ Projects → Timelines → Notes. Switch between edits instantly. Everything sto
 <table>
 <tr>
 <td width="50%" align="center">
-<img src="https://olanrewaju-portfolio-three.vercel.app/cutnotes/screenshots/02_marker_import_dialog.png" alt="Marker Import" width="420"><br>
+<img src="https://cutnotes.app/screenshots/02_marker_import_dialog.png" alt="Marker Import" width="420"><br>
 <sub><strong>Marker Import</strong> — Pull from Resolve with color and notes intact</sub>
 </td>
 <td width="50%" align="center">
-<img src="https://olanrewaju-portfolio-three.vercel.app/cutnotes/screenshots/03_export_dialog_pdf.png" alt="PDF Export" width="420"><br>
+<img src="https://cutnotes.app/screenshots/03_export_dialog_pdf.png" alt="PDF Export" width="420"><br>
 <sub><strong>Export</strong> — PDF and TXT with formatting preserved</sub>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
-<img src="https://olanrewaju-portfolio-three.vercel.app/cutnotes/screenshots/04_search_highlighting.png" alt="Search" width="420"><br>
+<img src="https://cutnotes.app/screenshots/04_search_highlighting.png" alt="Search" width="420"><br>
 <sub><strong>Search</strong> — Real-time highlighting across all notes</sub>
 </td>
 <td width="50%" align="center">
-<img src="https://olanrewaju-portfolio-three.vercel.app/cutnotes/screenshots/05_resolve_connection_indicator.png" alt="Live Connection" width="420"><br>
+<img src="https://cutnotes.app/screenshots/05_resolve_connection_indicator.png" alt="Live Connection" width="420"><br>
 <sub><strong>Live Connection</strong> — Green dot = connected to Resolve</sub>
 </td>
 </tr>
@@ -257,7 +257,7 @@ CutNotes is source-available under the **Business Source License 1.1 (BSL-1.1)**
 ---
 
 <p align="center">
-  <a href="https://olanrewaju-portfolio-three.vercel.app/cutnotes/index.html">Website</a>
+  <a href="https://cutnotes.app/">Website</a>
   &nbsp;·&nbsp;
   <a href="https://github.com/ElOlamirewaju/cutnotes-releases/releases/tag/v1.0">Download</a>
   &nbsp;·&nbsp;
