@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/ElOlamirewaju/cutnotes-releases/releases/tag/v1.0"><img src="https://img.shields.io/badge/Download-v1.0_Beta-E8451A?style=for-the-badge&logo=apple&logoColor=white" alt="Download"></a>
+  <a href="https://github.com/ElOlamirewaju/cutnotes-releases/releases/tag/v1.0.1"><img src="https://img.shields.io/badge/Download-v1.0.1-E8451A?style=for-the-badge&logo=apple&logoColor=white" alt="Download"></a>
   <a href="https://cutnotes.app/"><img src="https://img.shields.io/badge/Website-cutnotes-07090C?style=for-the-badge&logo=safari&logoColor=white" alt="Website"></a>
 </p>
 
@@ -104,7 +104,7 @@ Projects → Timelines → Notes. Switch between edits instantly. Everything sto
 
 ### 1. Download
 
-Grab **`CutNotes-1.0.dmg`** from the [latest release](https://github.com/ElOlamirewaju/cutnotes-releases/releases/tag/v1.0).
+Grab **`CutNotes-1.0.1.dmg`** from the [latest release](https://github.com/ElOlamirewaju/cutnotes-releases/releases/tag/v1.0.1).
 
 ### 2. Install
 
@@ -119,7 +119,7 @@ This build is **Apple-signed and notarized** (Developer ID: Olanrewaju Akinola, 
 ### Verify the download (optional)
 
 ```bash
-shasum -a 256 -c CutNotes-1.0.dmg.sha256
+shasum -a 256 -c CutNotes-1.0.1.dmg.sha256
 ```
 
 ---
@@ -174,8 +174,8 @@ brew install python@3.14
 
 The current build is Apple-signed and notarized, so Gatekeeper should accept it without prompts. If you do hit an issue:
 
-1. Re-download from the [release page](https://github.com/ElOlamirewaju/cutnotes-releases/releases/tag/v1.0) — partial downloads can corrupt the stapled ticket
-2. Verify the SHA-256 matches: `shasum -a 256 -c CutNotes-1.0.dmg.sha256`
+1. Re-download from the [release page](https://github.com/ElOlamirewaju/cutnotes-releases/releases/tag/v1.0.1) — partial downloads can corrupt the stapled ticket
+2. Verify the SHA-256 matches: `shasum -a 256 -c CutNotes-1.0.1.dmg.sha256`
 3. Check Console.app (filter: `CutNotes`) for the actual crash reason
 4. [Open an issue](https://github.com/ElOlamirewaju/cutnotes-releases/issues) with the Console output and your macOS version
 </details>
@@ -210,13 +210,18 @@ Make sure notes are written in the editor for the **selected timeline** before e
 
 ## Roadmap
 
-**v1.0 — Foundation** *(current beta)*
+**v1.0 — Foundation** *(shipped)*
 - ✅ Rich-text notes editor with auto-save
 - ✅ Live DaVinci Resolve integration (click-to-seek)
 - ✅ Marker import with duplicate detection
 - ✅ PDF & TXT export
 - ✅ Project / Timeline organization
 - ✅ Instant search
+
+**v1.0.1 — Auto-update** *(current beta)*
+- ✅ Sparkle-based auto-update (EdDSA-signed, atomic)
+- ✅ "Check for Updates…" menu item
+- ✅ Daily background check
 
 **v2.0 — Enhanced Productivity** *(Q3 2026)*
 - Categories with color coding (VFX, Audio, Color, Edit, Review, Note)
@@ -259,7 +264,7 @@ CutNotes is source-available under the **Business Source License 1.1 (BSL-1.1)**
 <p align="center">
   <a href="https://cutnotes.app/">Website</a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/ElOlamirewaju/cutnotes-releases/releases/tag/v1.0">Download</a>
+  <a href="https://github.com/ElOlamirewaju/cutnotes-releases/releases/tag/v1.0.1">Download</a>
   &nbsp;·&nbsp;
   <a href="https://github.com/ElOlamirewaju/cutnotes-releases/issues">Report a bug</a>
   &nbsp;·&nbsp;
