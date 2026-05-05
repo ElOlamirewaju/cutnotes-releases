@@ -17,7 +17,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/platform-macOS%2012%2B-07090C?style=flat-square&labelColor=07090C&color=E8451A" alt="macOS">
-  <img src="https://img.shields.io/badge/status-public%20beta-07090C?style=flat-square&labelColor=07090C&color=12C4A0" alt="Beta">
+  <img src="https://img.shields.io/badge/status-available-07090C?style=flat-square&labelColor=07090C&color=12C4A0" alt="Available">
   <img src="https://img.shields.io/badge/version-1.0-07090C?style=flat-square&labelColor=07090C&color=E8451A" alt="Version">
   <img src="https://img.shields.io/badge/license-BSL--1.1-07090C?style=flat-square&labelColor=07090C&color=E8451A" alt="License">
 </p>
@@ -36,7 +36,7 @@ You're cutting in DaVinci Resolve. Your notes live in a different app — Notes,
 
 CutNotes makes that loop disappear. Your notes app **talks to Resolve directly**. Click a timecode → playhead jumps. Import markers from your timeline → they show up as clickable, color-coded entries in your notes. Export the whole thing as PDF for your director.
 
-> **This is a public beta.** The app works, but it's not yet code-signed by Apple, so install requires two terminal commands (see [Installation](#installation)). Bug reports and feature requests are very welcome — that's the point of the beta.
+> **CutNotes is shipping**, Apple-signed and notarized. Drag, double-click, done. Bug reports and feature requests are still very welcome — early adopters shape what comes next.
 
 ---
 
@@ -223,7 +223,7 @@ Make sure notes are written in the editor for the **selected timeline** before e
 - ✅ "Check for Updates…" menu item
 - ✅ Daily background check
 
-**v1.0.2** *(current beta)*
+**v1.0.2** *(current release)*
 - Auto-update validation build — no functional changes from v1.0.1.
 
 **v2.0 — Enhanced Productivity** *(Q3 2026)*
@@ -247,7 +247,7 @@ Make sure notes are written in the editor for the **selected timeline** before e
 
 ## Feedback & Bug Reports
 
-Found a bug? Got a feature idea? **That's exactly what beta is for** — please tell us.
+Found a bug? Got a feature idea? **Early adopters shape what comes next** — please tell us.
 
 - **Open an issue:** [github.com/ElOlamirewaju/cutnotes-releases/issues](https://github.com/ElOlamirewaju/cutnotes-releases/issues)
 - **Include:** macOS version, Resolve version, Python version (`python3.14 --version`), steps to reproduce, screenshots if visual
